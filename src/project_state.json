@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Build an English marketing website for Bhojpur Classic (tourist and travel transport services) with a clean, professional blue-and-white design focused on trust, safety, reliability, and phone-based bookings.",
+  "architectural_notes": [
+    "Single-page marketing site in English with sections: Hero, Services, Vehicle Showcase (3 images), Why Choose Us, Contact (phone booking).",
+    "Primary conversion action is direct phone booking via click-to-call: +91 878-9514659."
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-responsive-single-page-english-marketing-website-for-bhojpur-classic-with-sections-1-hero-showcasing-ac-buses-2-services-overview-3-vehicle-showcase-gallery-4-why-choose-bhojpur-classic-5-prominent-contact-phone-booking-cta",
+      "title": "Create a responsive, single-page English marketing website for “Bhojpur Classic” with sections: (1) Hero showcasing AC buses, (2) Services overview, (3) Vehicle showcase/gallery, (4) Why choose Bhojpur Classic, (5) Prominent Contact/Phone booking CTA.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-phone-booking-cta-flow-using-click-to-call-links-tel-throughout-the-page-at-minimum-hero-cta-and-contact-section-using-the-phone-number-91-878-9514659-and-clearly-communicate-that-pricing-is-flexible-based-on-destination-and-tour-duration",
+      "title": "Implement a “phone booking” CTA flow using click-to-call links (tel:) throughout the page (at minimum: hero CTA and contact section) using the phone number +91 878-9514659, and clearly communicate that pricing is flexible based on destination and tour duration.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-services-overview-section-describing-sightseeing-tours-airport-transfers-and-custom-itineraries-with-concise-professional-service-descriptions-suitable-for-international-and-domestic-tourists",
+      "title": "Create a Services overview section describing: sightseeing tours, airport transfers, and custom itineraries, with concise, professional service descriptions suitable for international and domestic tourists.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-vehicle-showcase-gallery-section-that-displays-three-high-quality-bus-images-of-bhojpur-classic-branded-vehicles-with-accessible-alt-text-and-a-brief-caption-emphasizing-comfort-and-ac-travel",
+      "title": "Add a Vehicle showcase/gallery section that displays three high-quality bus images of Bhojpur Classic branded vehicles (with accessible alt text) and a brief caption emphasizing comfort and AC travel.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-why-choose-bhojpur-classic-section-highlighting-experienced-drivers-comfortable-ac-buses-local-expertise-and-flexible-pricing-with-a-trust-safety-forward-presentation",
+      "title": "Create a “Why choose Bhojpur Classic” section highlighting: experienced drivers, comfortable AC buses, local expertise, and flexible pricing, with a trust/safety-forward presentation.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-clean-professional-blue-and-white-visual-design-style-that-communicates-trust-safety-reliability-and-comfort-use-consistent-typography-spacing-and-component-styling-across-all-sections",
+      "title": "Apply a clean, professional blue-and-white visual design style that communicates trust, safety, reliability, and comfort; use consistent typography, spacing, and component styling across all sections.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-basic-on-page-seo-for-a-marketing-site-set-page-title-metadata-for-bhojpur-classic-and-ensure-headings-are-structured-single-h1-in-hero-h2s-for-sections",
+      "title": "Add basic on-page SEO for a marketing site: set page title/metadata for Bhojpur Classic and ensure headings are structured (single H1 in hero, H2s for sections).",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-place-the-provided-generated-bus-images-in-the-static-assets-directory-and-reference-them-directly-from-the-frontend-without-routing-images-through-the-backend",
+      "title": "Place the provided/generated bus images in the static assets directory and reference them directly from the frontend without routing images through the backend.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-publish-the-current-bhojpur-classic-single-page-marketing-site-live-as-a-production-deployment-on-the-internet-computer-so-it-is-accessible-via-a-public-url",
+      "title": "Publish the current Bhojpur Classic single-page marketing site live as a production deployment on the Internet Computer so it is accessible via a public URL.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create website structure and content sections: Hero, Services overview, Vehicle showcase, Why choose us, and Contact/phone booking CTA",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add prominent phone booking flow (click-to-call) using contact number +91 878-9514659 and highlight flexible destination/duration pricing",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Implement vehicle showcase/gallery using 3 provided high-quality bus images of Bhojpur Classic branded buses",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Apply 'Trustworthy Professional' visual design: clean blue-and-white layout emphasizing safety, reliability, and comfort",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Publish the current Bhojpur Classic marketing site live (production deployment)",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Bhojpur Classic",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

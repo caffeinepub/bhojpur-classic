@@ -1,0 +1,44 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Bhojpur Classic — Production deployment readiness (frontend-only)",
+  "requirements": [
+    {
+      "id": "REQ-9",
+      "summary": "Prepare the existing Bhojpur Classic marketing SPA for an Internet Computer production deployment and document the exact publish steps.",
+      "acceptanceCriteria": [
+        "A production deployment is performed (not just a local/preview build).",
+        "A public URL is provided that loads the Bhojpur Classic marketing page successfully over HTTPS.",
+        "Core interactions work on the live site (navigation scroll links and tel: click-to-call links for +91 878-9514659).",
+        "No placeholder/preview-only references are present in the live deployment output."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/main.tsx",
+          "operation": "modify",
+          "description": "Remove unnecessary authentication/provider wiring for a static marketing site (e.g., Internet Identity + react-query providers) to reduce production runtime/config risk while keeping the rendered MarketingPage unchanged."
+        },
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Harden production HTML metadata for live hosting (ensure correct title/description and avoid any preview-only references), keeping the app entry script compatible with production bundling on the Internet Computer."
+        },
+        {
+          "path": "frontend/src/components/TopNav.tsx",
+          "operation": "modify",
+          "description": "Verify production-safe behavior for core interactions (smooth-scroll navigation and click-to-call link), ensuring the tel: link continues to use the +91 878-9514659 number from branding content without introducing preview-only references."
+        },
+        {
+          "path": "frontend/src/components/sections/ContactSection.tsx",
+          "operation": "modify",
+          "description": "Verify production-safe click-to-call CTA behavior for +91 878-9514659 (tel: link), ensuring no environment-specific/preview-only assumptions are present."
+        },
+        {
+          "path": "frontend/DEPLOYMENT.md",
+          "operation": "create",
+          "description": "Add step-by-step production publishing instructions for deploying the existing frontend to the Internet Computer (including build + deploy commands, where to obtain the final HTTPS URL, and a post-deploy smoke-check list for scroll links and tel: links). Use the github-export-icp-cli template guidance where applicable; verify the component's usage instructions before implementing."
+        }
+      ]
+    }
+  ]
+}

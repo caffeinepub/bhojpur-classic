@@ -1,0 +1,39 @@
+{
+  "kind": "build_request",
+  "title": "Publish Bhojpur Classic marketing site live (production deployment)",
+  "projectName": "Bhojpur Classic",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-9",
+      "text": "Publish the current Bhojpur Classic single-page marketing site live as a production deployment on the Internet Computer so it is accessible via a public URL.",
+      "target": "unknown",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "O am okay with the version now can you publish it live"
+        ]
+      },
+      "acceptanceCriteria": [
+        "A production deployment is performed (not just a local/preview build).",
+        "A public URL is provided that loads the Bhojpur Classic marketing page successfully over HTTPS.",
+        "Core interactions work on the live site (navigation scroll links and tel: click-to-call links for +91 878-9514659).",
+        "No placeholder/preview-only references are present in the live deployment output."
+      ]
+    }
+  ],
+  "constraints": [
+    "Keep the existing single-actor backend architecture (backend/main.mo) unchanged unless strictly required for deployment.",
+    "Do not edit files under frontend/src/components/ui or any other frontend immutablePaths; compose existing components instead if changes are needed."
+  ],
+  "nonGoals": [
+    "Adding new site sections (e.g., contact form) or changing existing marketing copy/design.",
+    "Introducing new backend functionality or persistent storage."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

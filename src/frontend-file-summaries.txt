@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main application entry point that renders the MarketingPage component.",
+  "frontend/src/content/branding.ts": "Centralized branding constants including business name, contact information, copy text, services data, and why-choose-us reasons.",
+  "frontend/src/components/MarketingPage.tsx": "Main marketing page layout component that composes all sections (Hero, Services, Vehicles, Why Choose, Contact) with navigation and footer.",
+  "frontend/src/components/TopNav.tsx": "Sticky navigation header with smooth scroll anchor links, mobile menu, and prominent phone CTA button.",
+  "frontend/src/components/sections/HeroSection.tsx": "Hero section with H1 heading, value proposition, flexible pricing message, and primary phone booking CTA.",
+  "frontend/src/components/sections/ServicesSection.tsx": "Services overview section with H2 heading displaying three service cards (sightseeing tours, airport transfers, custom itineraries) with icons and descriptions.",
+  "frontend/src/components/sections/VehicleGallerySection.tsx": "Vehicle showcase section with H2 heading displaying three bus images in a responsive grid with accessible alt text and comfort messaging.",
+  "frontend/src/components/sections/WhyChooseSection.tsx": "Why choose section with H2 heading highlighting four key reasons (experienced drivers, AC buses, local expertise, flexible pricing) in a trust-focused layout.",
+  "frontend/src/components/sections/ContactSection.tsx": "Contact section with H2 heading, prominent phone booking CTA, availability information, and flexible pricing reminder.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright notice and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/index.css": "Global styles with professional blue-and-white OKLCH color system for light and dark modes, custom section utilities, and smooth scroll behavior.",
+  "frontend/tailwind.config.js": "Tailwind configuration with Inter font family, extended color tokens, custom border radius, and animation settings.",
+  "frontend/index.html": "HTML entry point with SEO metadata, page title including \"Bhojpur Classic\", and Inter font preload.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks (empty as this is a static marketing site with no backend data fetching).",
+  "frontend/src/main.tsx": "Simplified production entry point that renders the App component without unnecessary authentication or query providers for this static marketing site.",
+  "frontend/DEPLOYMENT.md": "Complete step-by-step production deployment guide for publishing Bhojpur Classic to the Internet Computer, including build commands, deployment steps, URL retrieval, and a comprehensive post-deployment verification checklist for all interactive elements."
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-publish-the-current-bhojpur-classic-single-page-marketing-site-live-as-a-production-deployment-on-the-internet-computer-so-it-is-accessible-via-a-public-url",
+      "featureTitle": "Publish the current Bhojpur Classic single-page marketing site live as a production deployment on the Internet Computer so it is accessible via a public URL.",
+      "files": [
+        "frontend/DEPLOYMENT.md"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

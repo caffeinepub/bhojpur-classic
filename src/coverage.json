@@ -1,0 +1,42 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-18T07:04:59.981Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-9",
+        "summary": "Publish the current Bhojpur Classic single-page marketing site live as a production deployment on the Internet Computer so it is accessible via a public URL.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/main.tsx",
+          "frontend/index.html",
+          "frontend/src/components/TopNav.tsx",
+          "frontend/src/components/sections/ContactSection.tsx",
+          "frontend/DEPLOYMENT.md"
+        ],
+        "matchedFiles": [
+          "frontend/DEPLOYMENT.md"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/DEPLOYMENT.md",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

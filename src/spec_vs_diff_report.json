@@ -1,0 +1,33 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-18T07:04:59.978Z",
+  "summary": "REQ-9 asks for an actual production deployment to the Internet Computer with a public HTTPS URL and verified core interactions. The diff only adds a deployment guide (and updates metadata/summary files) and does not provide evidence of an executed production deployment or a live URL.",
+  "missing_requirements": [
+    {
+      "id": "REQ-9",
+      "requirement": "Publish the current Bhojpur Classic single-page marketing site live as a production deployment on the Internet Computer so it is accessible via a public URL (production deploy performed; public HTTPS URL provided; core interactions verified; no placeholder/preview-only references).",
+      "reason": "The diff shows documentation and metadata updates, but no evidence of an actual production deployment being performed and no public URL is included in the change set. A guide alone does not satisfy the acceptance criteria that a live HTTPS URL is provided and verified.",
+      "evidence": [
+        "frontend/DEPLOYMENT.md (added, appears to be a guide; no evidence of actual deployment output or URL in diff summary)",
+        "frontend-file-summaries.txt (modified; descriptive only)",
+        "project_state.json (modified; descriptive only)"
+      ]
+    }
+  ],
+  "hallucinated_features": [
+    {
+      "description": "Added a production deployment guide document.",
+      "reason": "REQ-9 requires that a production deployment be performed and a public HTTPS URL be provided; adding a guide is not explicitly requested as an artifact and does not itself fulfill the requirement.",
+      "evidence": [
+        "frontend/DEPLOYMENT.md"
+      ]
+    }
+  ],
+  "confidence": 0.74,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/DEPLOYMENT.md",
+    "project_state.json"
+  ]
+}
